@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragmentAdmin"
+    tools:context=".Fragments.FragmentAdminPanel">
+
+
+
+
+    <EditText
+        android:id="@+id/modelEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Модель"
+        android:layout_marginTop="0dp"
+        />
+    <EditText
+        android:id="@+id/cYearEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Год выпуска"
+        android:layout_marginTop="30dp"
+        />
+    <EditText
+        android:id="@+id/colorEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Цвет"
+        android:layout_marginTop="60dp"
+        />
+    <EditText
+        android:id="@+id/regNumberEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Регистрационный номер"
+        android:layout_marginTop="90dp"
+        />
+    <EditText
+        android:id="@+id/statusEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Состояние"
+        android:layout_marginTop="120dp"
+        />
+    <EditText
+        android:id="@+id/brandEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Марка авто"
+        android:layout_marginTop="150dp"
+        />
+    <EditText
+        android:id="@+id/mileageEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Пробег"
+        android:layout_marginTop="180dp"
+        />
+    <EditText
+        android:id="@+id/parkingIdExitText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="ID стоянки: "
+        android:layout_marginTop="210dp"
+        />
+    <Button
+        android:id="@+id/buttonAddCar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-80dp"
+        android:layout_gravity="center"
+        android:text="Добавить"
+    />
+
+
+    <EditText
+        android:id="@+id/typeEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Тип стоянки: "
+        android:layout_marginTop="315dp"
+        />
+    <EditText
+        android:id="@+id/addressEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Адрес: "
+        android:layout_marginTop="345dp"
+        />
+    <EditText
+        android:id="@+id/capacityEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Вместимость "
+        android:layout_marginTop="375dp"
+        />
+    <Button
+        android:id="@+id/buttonAddParking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="75dp"
+        android:text="Добавить"
+        />
+    <EditText
+        android:id="@+id/carIdEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="ID автомобиля "
+        android:layout_marginTop="475dp"
+        />
+
+    <Button
+        android:id="@+id/buttonDeleteCar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="180dp"
+        android:text="Удалить" />
+
+    <EditText
+        android:id="@+id/parkingIdEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="530dp"
+        android:hint="ID стоянки " />
+
+    <Button
+        android:id="@+id/buttonDeleteParking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="-250dp"
+        android:text="Удалить" />
+
+
+</FrameLayout>

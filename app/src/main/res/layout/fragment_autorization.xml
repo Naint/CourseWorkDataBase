@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.FragmentAutorization">
+
+<!--//213 * 345-->
+    <ImageView
+        android:layout_width="215dp"
+        android:layout_height="345dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_car"
+        android:layout_marginTop="-200dp"
+        />
+
+    <EditText
+        android:id="@+id/loginText"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:hint="Логин"
+        android:layout_marginTop="-50dp"
+        />
+
+    <EditText
+        android:id="@+id/passwordText"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Пароль"
+        />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Войти"
+        android:layout_gravity="center"
+        android:layout_marginBottom="-100dp"
+        />
+
+
+</FrameLayout>
+

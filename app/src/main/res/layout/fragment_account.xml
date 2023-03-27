@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.FragmenAccount">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text=""
+        android:textSize="40dp" />
+
+
+
+
+    <TextView
+        android:id="@+id/loginView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Имя"
+        android:layout_margin="20dp"
+        android:layout_marginLeft="100dp"
+        android:textSize="40dp"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:text="Мои документы"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Выйти"
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="200dp"
+        android:backgroundTint="@color/white"
+        android:drawableTop="@drawable/ic_photo"
+        android:padding="85dp"
+        />
+
+
+</FrameLayout>
