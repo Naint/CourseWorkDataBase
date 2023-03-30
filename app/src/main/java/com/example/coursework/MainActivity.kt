@@ -30,13 +30,6 @@ class MainActivity : AppCompatActivity() {
         val adminPanelFragment = FragmentAdminPanel()
         val autorizationFragment = FragmentAutorization()
 
-/*        var carList = ArrayList<String>()
-        carList.add("Honda Civic, 2017")
-        carList.add("Subaru Levorg, 2017")
-        val listView = findViewById<ListView>(R.id.listView)
-        val arrayAdapter: ArrayAdapter<String> = ArrayAdapter(this, android.R.layout.simple_list_item_1, carList)
-        listView.adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, carList)*/
-
         setCurrentFragment(autorizationFragment)
 
         binding.bNav.setOnNavigationItemSelectedListener {
@@ -48,13 +41,6 @@ class MainActivity : AppCompatActivity() {
             }
             true
         }
-
-/*        val car = Cars(null, "Kia","Rio", "Р043НР", 2015, "25.000","Синий","Активен", 1)
-        thread {
-            db.getDao().insertCar(car)
-        }*/
-
-
 
 
         }
@@ -75,34 +61,3 @@ class MainActivity : AppCompatActivity() {
 
 
 }
-
-
-
-/*lateinit var binding: ActivityMainBinding
-
-override fun onCreate(savedInstanceState: Bundle?) {
-    super.onCreate(savedInstanceState)
-    binding = ActivityMainBinding.inflate(layoutInflater)
-    setContentView(binding.root)
-    val db = MainDB.getDB(this);
-
-
-
-    binding.btnSave.setOnClickListener{
-        val car = Cars(null, "Honda","Civic", "Р041НР", 2017, "20.000","Серый","Активен", 1 )
-        val item = parking(null, binding.edType.getText().toString(), binding.edCapacity.getText().toString(), binding.edAddress.getText().toString())
-        val contract = Contracts(null, "02.09.2002","03.09.2002","200","restless", 1)
-        val rta = Rta(null, "03.09.2002","пиздец",2,1)
-        val usr = Users("restыleskss","vlad2002","admin","fio","229","2","have",1)
-
-        Thread{
-            db.getDao().insertItem(item)
-            db.getDao().insertCar(car)
-            db.getDao().insertUser(usr)
-            db.getDao().insertRta(rta)
-            db.getDao().insertContracts(contract)
-        }.start()
-
-    }*/
-
-
